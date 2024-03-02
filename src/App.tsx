@@ -10,7 +10,7 @@ import Profile from "./Routes/Profile";
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/skills" element={<Skills />} />
