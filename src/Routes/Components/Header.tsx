@@ -19,7 +19,7 @@ const Col = styled.div`
 
 const Name = styled.div`
   color: #5ab2ff;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
 `;
 
@@ -43,7 +43,7 @@ function Header({ setProfileColor, setSkillColor, setProjectColor }: any) {
   return (
     <Nav>
       <Col>
-        <Name>🍀Jungyun's Protpolio🍀</Name>
+        <Name>🍀Jungyun's Portpolio</Name>
       </Col>
       <Col>
         <Item $inputColor={setProfileColor}>

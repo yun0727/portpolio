@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import "./App.css";
-import Header from "./Routes/Components/Header";
 import Skills from "./Routes/Skills";
 import Project from "./Routes/Project";
 import Profile from "./Routes/Profile";
@@ -10,7 +9,6 @@ import Profile from "./Routes/Profile";
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/skills" element={<Skills />} />
@@ -22,17 +20,6 @@ function App() {
     //     <h1>최 정 윤</h1>
     //     <p>frontend developer</p>
     //   </header>
-    //   <header className="App-header">
-    //     <h1>최 정 윤</h1>
-    //     <p>frontend developer</p>
-    //   </header>
-    //   <section className="About">
-    //     <h2>About Me</h2>
-    //     <p>
-    //       Hello! I'm a passionate web developer with experience in React,
-    //       JavaScript, and more.
-    //     </p>
-    //   </section>
     //   <section className="Projects">
     //     <h2>Projects</h2>
     //     <div className="Project">
