@@ -4,8 +4,8 @@ const Wrapper = styled.div`
   @media screen and (max-width: 750px) {
     position: absolute;
     z-index: 99;
-    height: 1000vh;
-    width: 200vw;
+    height: 200vh;
+    width: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
