@@ -4,7 +4,7 @@ const Wrapper = styled.div`
   @media screen and (max-width: 750px) {
     position: absolute;
     z-index: 99;
-    height: 160vh;
+    height: 1000vh;
     width: 200vw;
     display: flex;
     justify-content: center;
