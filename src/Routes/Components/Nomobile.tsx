@@ -11,13 +11,22 @@ const Wrapper = styled.div`
     align-items: center;
     background-color: black;
     top: 0;
-    color: white;
-    font-size: 35px;
   }
 `;
 
+const Warn = styled.div`
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 100px;
+`;
+
 function Mobile() {
-  return <Wrapper>Your screen is Too small</Wrapper>;
+  return (
+    <Wrapper>
+      <Warn>our screen is Too small</Warn>
+    </Wrapper>
+  );
 }
 
 export default Mobile;
