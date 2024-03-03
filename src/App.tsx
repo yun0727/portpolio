@@ -10,35 +10,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Profile />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/project" element={<Project />} />
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Profile />} />
+        <Route path={process.env.PUBLIC_URL + "/skills"} element={<Skills />} />
+        <Route
+          path={process.env.PUBLIC_URL + "/project"}
+          element={<Project />}
+        />
       </Routes>
     </Router>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <h1>최 정 윤</h1>
-    //     <p>frontend developer</p>
-    //   </header>
-    //   <section className="Projects">
-    //     <h2>Projects</h2>
-    //     <div className="Project">
-    //       <h3>Project 1</h3>
-    //       <p>Description of Project 1.</p>
-    //     </div>
-    //     <div className="Project">
-    //       <h3>Project 2</h3>
-    //       <p>Description of Project 2.</p>
-    //     </div>
-    //     {/* Add more projects as needed */}
-    //   </section>
-    //   <section className="Contact">
-    //     <h2>Contact</h2>
-    //     <p>Email: your.email@example.com</p>
-    //     <p>LinkedIn: linkedin.com/in/yourusername</p>
-    //     {/* Add more contact information as needed */}
-    //   </section>
-    // </div>
   );
 }
 

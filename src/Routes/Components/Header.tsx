@@ -47,13 +47,13 @@ function Header({ setProfileColor, setSkillColor, setProjectColor }: any) {
       </Col>
       <Col>
         <Item $inputColor={setProfileColor}>
-          <Link to="/">Profile</Link>
+          <Link to={process.env.PUBLIC_URL + "/"}>Profile</Link>
         </Item>
         <Item $inputColor={setSkillColor}>
-          <Link to="/skills">Skills</Link>
+          <Link to={process.env.PUBLIC_URL + "/skills"}>Skills</Link>
         </Item>
         <Item $inputColor={setProjectColor}>
-          <Link to="/project">Project</Link>
+          <Link to={process.env.PUBLIC_URL + "/project"}>Project</Link>
         </Item>
       </Col>
     </Nav>
