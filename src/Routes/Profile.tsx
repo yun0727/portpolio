@@ -9,10 +9,11 @@ const Wrapper = styled.div`
   padding-bottom: 30px;
   /* padding-bottom: 100%; */
   margin-top: 60px;
+  @media screen and (min-width: 975px) {
+    height: 1100px;
+  }
 `;
 
-// @media screen and (min-width: 950px) {
-// }
 const Box = styled.div`
   background: white;
   margin: 30px 20px;
@@ -50,15 +51,8 @@ const Img = styled.div`
   height: 532px;
   border-radius: 20px;
   margin-bottom: 30px;
-  @media screen and (max-width: 1380px) {
-    background-size: cover;
-    width: screen;
-    height: 532px;
-  }
-  @media screen and (max-width: 975px) {
-    background-size: cover;
-  }
 `;
+
 const Col = styled.div`
   /* width: 80%; */
   display: flex;
@@ -73,9 +67,7 @@ const Col = styled.div`
   }
 `;
 
-const Item = styled.div`
-  /* background-color: blue; */
-`;
+const Item = styled.div``;
 
 const Items = styled.div`
   display: flex;
