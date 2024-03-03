@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Header from "./Components/Header";
 import profileimg from "../img/profileimg.jpeg";
+import Mobile from "./Components/Nomobile";
 
 const Wrapper = styled.div`
   background: #d5edfa;
@@ -121,50 +122,53 @@ const UnivData = styled.div`
 
 function Profile() {
   return (
-    <Wrapper>
-      <Header
-        setProfileColor="#5ab2ff"
-        setSkillColor="#b2d7fc"
-        setProjectColor="#b2d7fc"
-      />
-      <Box>
-        <Title>Profile</Title>
-        <Col>
-          <Imgbox>
-            <Img></Img>
-          </Imgbox>
-          <Item>
-            <Items>
-              <Info>이름</Info>
-              <Data>최정윤</Data>
-            </Items>
-            <Items>
-              <Info>생년월일</Info>
-              <Data>2000.07.27</Data>
-            </Items>
-            <Items>
-              <Info>연락처</Info>
-              <Data>010-4641-0507</Data>
-            </Items>
-            <Items>
-              <Info>이메일</Info>
-              <Data>sarah5789@naver.com</Data>
-            </Items>
-            <Items>
-              <Info>주소</Info>
-              <Data>수원시 영통구 이의동</Data>
-            </Items>
-            <Items>
-              <Info>학력</Info>
-              <Univ>
-                <UnivData>경기대 화학공학과 졸업(3.67/4.5)</UnivData>
-                <UnivData>2019.03-2023.02</UnivData>
-              </Univ>
-            </Items>
-          </Item>
-        </Col>
-      </Box>
-    </Wrapper>
+    <div>
+      <Mobile />
+      <Wrapper>
+        <Header
+          setProfileColor="#5ab2ff"
+          setSkillColor="#b2d7fc"
+          setProjectColor="#b2d7fc"
+        />
+        <Box>
+          <Title>Profile</Title>
+          <Col>
+            <Imgbox>
+              <Img></Img>
+            </Imgbox>
+            <Item>
+              <Items>
+                <Info>이름</Info>
+                <Data>최정윤</Data>
+              </Items>
+              <Items>
+                <Info>생년월일</Info>
+                <Data>2000.07.27</Data>
+              </Items>
+              <Items>
+                <Info>연락처</Info>
+                <Data>010-4641-0507</Data>
+              </Items>
+              <Items>
+                <Info>이메일</Info>
+                <Data>sarah5789@naver.com</Data>
+              </Items>
+              <Items>
+                <Info>주소</Info>
+                <Data>수원시 영통구 이의동</Data>
+              </Items>
+              <Items>
+                <Info>학력</Info>
+                <Univ>
+                  <UnivData>경기대 화학공학과 졸업(3.67/4.5)</UnivData>
+                  <UnivData>2019.03-2023.02</UnivData>
+                </Univ>
+              </Items>
+            </Item>
+          </Col>
+        </Box>
+      </Wrapper>
+    </div>
   );
 }
 
