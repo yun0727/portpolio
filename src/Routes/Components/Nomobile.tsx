@@ -24,7 +24,7 @@ const Warn = styled.div`
 function Mobile() {
   return (
     <Wrapper>
-      <Warn>our screen is Too small</Warn>
+      <Warn>Your screen is Too small</Warn>
     </Wrapper>
   );
 }
