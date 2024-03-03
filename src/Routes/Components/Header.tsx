@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 const Nav = styled.div`
   display: flex;
@@ -27,7 +26,7 @@ const Name = styled.div`
 const Item = styled.button<{ $inputColor?: string }>`
   color: black;
   margin-right: 20px;
-  padding: 10px;
+  padding: 10px 30px;
   border-radius: 30px;
   /* background-color: #b2d7fc; */
   background-color: ${(props) => props.$inputColor || "#b2d7fc"};
