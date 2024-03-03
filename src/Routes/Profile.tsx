@@ -21,7 +21,7 @@ const Box = styled.div`
 `;
 
 const Title = styled.div`
-  color: #5ab2ff;
+  color: #0179fe;
   background-color: #f6fa6f;
   font-size: 50px;
   font-weight: 900;
@@ -52,9 +52,9 @@ const Items = styled.div`
 `;
 
 const Info = styled.div`
-  color: #5ab2ff;
+  color: #0179fe;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 800;
   background-color: #f6fa6f;
   /* margin-right: 40px; */
   padding: 10px 20px;
