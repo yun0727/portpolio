@@ -15,10 +15,12 @@ const Wrapper = styled.div`
 `;
 
 const Warn = styled.div`
-  color: white;
-  font-size: 35px;
-  position: absolute;
-  top: 100px;
+  @media screen and (max-width: 750px) {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 100px;
+  }
 `;
 
 function Mobile() {

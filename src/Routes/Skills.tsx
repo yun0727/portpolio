@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Header from "./Components/Header";
+import Mobile from "./Components/Nomobile";
 
 const Title = styled.div`
   color: white;
@@ -9,6 +10,7 @@ const Title = styled.div`
 function Skills() {
   return (
     <div>
+      <Mobile />
       <Header
         setProfileColor="#b2d7fc"
         setSkillColor="#5ab2ff"
