@@ -36,10 +36,6 @@ const Item = styled.button<{ $inputColor?: string }>`
 `;
 
 function Header({ setProfileColor, setSkillColor, setProjectColor }: any) {
-  console.log("setProfileColor:", setProfileColor);
-  console.log("setSkillColor:", setSkillColor);
-  console.log("setProjectColor:", setProjectColor);
-
   return (
     <Nav>
       <Col>
