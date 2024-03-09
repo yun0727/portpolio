@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Header from "./Components/Header";
 import Mobile from "./Components/Nomobile";
 import kakaotalk from "../img/kakaotalk.png";
+import carrotmarket from "../img/carrotmarket.png";
 import { Link } from "react-router-dom";
 
 const Wrapper = styled.div`
@@ -144,19 +145,15 @@ function ProjectDetail() {
           <Title>Project</Title>
           <Col>
             <Project>
-              <ProjectName>카카오톡 페이지</ProjectName>
-              <Image src={kakaotalk} alt=""></Image>
+              <ProjectName>당근마켓 클론코딩</ProjectName>
+              <Image src={carrotmarket} alt=""></Image>
               <Detail>
                 <Descript>프로젝트 세부설명</Descript>
                 <Skills>
                   Skills
                   <Skill>
                     <img
-                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                      alt=""
-                    />
-                    <img
-                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
                       alt=""
                     />
                   </Skill>
@@ -165,19 +162,19 @@ function ProjectDetail() {
                   Deploy
                   <Skill>
                     <img
-                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"
                       alt=""
                     />
                   </Skill>
                 </Skills>
                 <Visit>
                   <Web>
-                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
+                    <Link to="https://carrot-market-liart.vercel.app/">
                       웹 사이트 방문하기
                     </Link>
                   </Web>
                   <Web>
-                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
+                    <Link to="https://github.com/yun0727/carrot-market">
                       깃허브 방문하기
                     </Link>
                   </Web>
@@ -310,7 +307,6 @@ function ProjectDetail() {
               </Detail>
             </Project>
           </Col>
-
           <Col>
             <Project>
               <ProjectName>카카오톡 페이지</ProjectName>
