@@ -4,6 +4,7 @@ import Mobile from "./Components/Nomobile";
 import kakaotalk from "../img/kakaotalk.png";
 import carrotmarket from "../img/carrotmarket.png";
 import { Link } from "react-router-dom";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const Wrapper = styled.div`
   background: #d5edfa;
@@ -13,7 +14,7 @@ const Wrapper = styled.div`
   /* padding-bottom: 100%; */
   margin-top: 60px;
   @media screen and (min-width: 975px) {
-    height: 1100px;
+    height: 3400px;
   }
 `;
 const Box = styled.div`
@@ -43,6 +44,9 @@ const Col = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-around;
+  /* border-bottom: 3px #0179fe solid; */
+  margin-top: 50px;
+  margin-bottom: 50px;
 `;
 const Project = styled.div`
   display: flex;
@@ -112,6 +116,13 @@ const Skills = styled.div`
 `;
 const Skill = styled.div`
   margin-left: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: center;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
 `;
 const Visit = styled.div`
   display: flex;
@@ -131,6 +142,10 @@ const Web = styled.div`
     background-color: #d5edfa;
   }
 `;
+const Icon = styled(FaRegArrowAltCircleRight)`
+  color: black;
+  margin: 0px 10px;
+`;
 function ProjectDetail() {
   return (
     <div>
@@ -148,7 +163,13 @@ function ProjectDetail() {
               <ProjectName>당근마켓 클론코딩</ProjectName>
               <Image src={carrotmarket} alt=""></Image>
               <Detail>
-                <Descript>프로젝트 세부설명</Descript>
+                <Descript>
+                  <p>- 제품 업로드, 찜 기능 구현</p>
+                  <p>- 커뮤니티 기능 구현</p>
+                  <p>- 유저간 채팅 가능 구현</p>
+                  <p>- 나의 프로필에서 프로필 수정 기능 구현</p>
+                  <p>- 커뮤니티 기능 구현</p>
+                </Descript>
                 <Skills>
                   Skills
                   <Skill>
@@ -156,6 +177,50 @@ function ProjectDetail() {
                       src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
                       alt=""
                     />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/tailwindcss-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/twilio-f22f46?style=for-the-badge&logo=twilio&logoColor=white"
+                      alt=""
+                    />
+                    <Icon />
+                    <p> 이메일과 전화번호를 통한 인증</p>
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/planetscale-000000?style=for-the-badge&logo=planetscale&logoColor=white"
+                      alt=""
+                    />
+                    <Icon />
+                    <p>MySQL을 사용하여 데이터베이스를 확장하고 관리</p>
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/cloudflare-f38020?style=for-the-badge&logo=cloudflare&logoColor=white"
+                      alt=""
+                    />
+                    <Icon />
+                    스트리밍 기능 구현
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/prisma-2d3748?style=for-the-badge&logo=prisma&logoColor=white"
+                      alt=""
+                    />
+                    <Icon />
+                    데이터베이스와 상호작용
                   </Skill>
                 </Skills>
                 <Skills>
