@@ -226,6 +226,175 @@ function ProjectDetail() {
               </Detail>
             </Project>
           </Col>
+          <Col>
+            <Project>
+              <ProjectName>카카오톡 페이지</ProjectName>
+              <Image src={kakaotalk} alt=""></Image>
+              <Detail>
+                <Descript>프로젝트 세부설명</Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+            <Project>
+              <ProjectName>카카오톡 페이지</ProjectName>
+              <Image src={kakaotalk} alt=""></Image>
+              <Detail>
+                <Descript>프로젝트 세부설명</Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+          </Col>
+
+          <Col>
+            <Project>
+              <ProjectName>카카오톡 페이지</ProjectName>
+              <Image src={kakaotalk} alt=""></Image>
+              <Detail>
+                <Descript>프로젝트 세부설명</Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+            <Project>
+              <ProjectName>카카오톡 페이지</ProjectName>
+              <Image src={kakaotalk} alt=""></Image>
+              <Detail>
+                <Descript>프로젝트 세부설명</Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+          </Col>
         </Box>
       </Wrapper>
     </div>
