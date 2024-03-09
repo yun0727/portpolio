@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/portpolio/static/css/main.dc4d6ff2.css",
-    "main.js": "/portpolio/static/js/main.2a17590b.js",
+    "main.js": "/portpolio/static/js/main.ff0708af.js",
     "static/media/kakaotalk.png": "/portpolio/static/media/kakaotalk.2b21e072726d31cd0adc.png",
+    "static/media/carrotmarket.png": "/portpolio/static/media/carrotmarket.8c3708e6e6f7ebd6d182.png",
     "static/media/profileimg.jpeg": "/portpolio/static/media/profileimg.93ca7f8571942af152d1.jpeg",
     "index.html": "/portpolio/index.html",
     "main.dc4d6ff2.css.map": "/portpolio/static/css/main.dc4d6ff2.css.map",
-    "main.2a17590b.js.map": "/portpolio/static/js/main.2a17590b.js.map"
+    "main.ff0708af.js.map": "/portpolio/static/js/main.ff0708af.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.2a17590b.js"
+    "static/js/main.ff0708af.js"
   ]
 }
