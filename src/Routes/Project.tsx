@@ -3,6 +3,9 @@ import Header from "./Components/Header";
 import Mobile from "./Components/Nomobile";
 import kakaotalk from "../img/kakaotalk.png";
 import carrotmarket from "../img/carrotmarket.png";
+import netflix from "../img/netflix.png";
+import youtube from "../img/youtube.png";
+import uniform from "../img/uniform.png";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
@@ -14,7 +17,7 @@ const Wrapper = styled.div`
   /* padding-bottom: 100%; */
   margin-top: 60px;
   @media screen and (min-width: 975px) {
-    height: 3400px;
+    height: 3800px;
   }
 `;
 const Box = styled.div`
@@ -67,26 +70,6 @@ const ProjectName = styled.div`
   align-items: center;
   margin-bottom: 30px;
 `;
-// const LinkImage = styled.div`
-//   width: 500px;
-//   height: 500px;
-//   background-color: #f6fa6f;
-//   border-radius: 25px;
-//   position: relative;
-//   z-index: 1;
-//   font-size: 25px;
-//   font-weight: 500;
-//   /* padding: 50px; */
-//   color: black;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   &:hover {
-//     background-color: #d5edfa;
-//     z-index: 99;
-//   }
-// `;
 const Image = styled.img`
   width: 100%;
   height: auto;
@@ -123,6 +106,7 @@ const Skill = styled.div`
   font-size: 25px;
   color: black;
   font-weight: 400;
+  margin-bottom: 5px;
 `;
 const Visit = styled.div`
   display: flex;
@@ -247,19 +231,90 @@ function ProjectDetail() {
               </Detail>
             </Project>
             <Project>
-              <ProjectName>카카오톡 페이지</ProjectName>
-              <Image src={kakaotalk} alt=""></Image>
+              <ProjectName>유튜브 웹 페이지 클론코딩</ProjectName>
+              <Image src={youtube} alt=""></Image>
               <Detail>
-                <Descript>프로젝트 세부설명</Descript>
+                <Descript>
+                  <p>- 깃허브로 로그인 기능 구현</p>
+                  <p>- 영상 재생, 댓글 달기 기능 구현</p>
+                  <p>- 비디오 녹화 및 업로드 기능 구현</p>
+                </Descript>
                 <Skills>
                   Skills
                   <Skill>
                     <img
-                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                      src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
                       alt=""
                     />
+                  </Skill>
+                  <Skill>
                     <img
-                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      src="https://img.shields.io/badge/pug-a86454?style=for-the-badge&logo=pug&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/mongoDB-47a248?style=for-the-badge&logo=mongoDB&logoColor=white"
+                      alt=""
+                    />
+                    <Icon />
+                    동영상, 사용자, 댓글 관리를 위한 데이터 베이스
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://wetube-2023-a663893d93ca.herokuapp.com/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/wetube-reloaded">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+          </Col>
+          <Col>
+            <Project>
+              <ProjectName>넷플릭스 페이지 클론코딩</ProjectName>
+              <Image src={netflix} alt=""></Image>
+              <Detail>
+                <Descript>
+                  <p>
+                    - 영화 api를 이용한 영화 정보를 통한 넷플릭스 페이지
+                    클론코딩
+                  </p>
+                  <p>- 애니메이션, 슬라이더 기능 구현</p>
+                </Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/html5-e34f36?style=for-the-badge&logo=html5&logoColor=white"
                       alt=""
                     />
                   </Skill>
@@ -275,12 +330,61 @@ function ProjectDetail() {
                 </Skills>
                 <Visit>
                   <Web>
-                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
+                    <Link to="https://yun0727.github.io/react-nomflix-app/">
                       웹 사이트 방문하기
                     </Link>
                   </Web>
                   <Web>
-                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
+                    <Link to="https://github.com/yun0727/react-nomflix-app">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+            <Project>
+              <ProjectName>유니폼 판매 사이트</ProjectName>
+              <Image src={uniform} alt=""></Image>
+              <Detail>
+                <Descript>프로젝트 세부설명</Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://uniform-store-jy.netlify.app/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/Uniform-site">
                       깃허브 방문하기
                     </Link>
                   </Web>
@@ -293,7 +397,9 @@ function ProjectDetail() {
               <ProjectName>카카오톡 페이지</ProjectName>
               <Image src={kakaotalk} alt=""></Image>
               <Detail>
-                <Descript>프로젝트 세부설명</Descript>
+                <Descript>
+                  <p>- 카카오톡 웹 페이지 반응형으로 구현</p>
+                </Descript>
                 <Skills>
                   Skills
                   <Skill>
@@ -301,6 +407,8 @@ function ProjectDetail() {
                       src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
                       alt=""
                     />
+                  </Skill>
+                  <Skill>
                     <img
                       src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
                       alt=""
@@ -330,131 +438,7 @@ function ProjectDetail() {
                 </Visit>
               </Detail>
             </Project>
-            <Project>
-              <ProjectName>카카오톡 페이지</ProjectName>
-              <Image src={kakaotalk} alt=""></Image>
-              <Detail>
-                <Descript>프로젝트 세부설명</Descript>
-                <Skills>
-                  Skills
-                  <Skill>
-                    <img
-                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                      alt=""
-                    />
-                    <img
-                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                      alt=""
-                    />
-                  </Skill>
-                </Skills>
-                <Skills>
-                  Deploy
-                  <Skill>
-                    <img
-                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
-                      alt=""
-                    />
-                  </Skill>
-                </Skills>
-                <Visit>
-                  <Web>
-                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
-                      웹 사이트 방문하기
-                    </Link>
-                  </Web>
-                  <Web>
-                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
-                      깃허브 방문하기
-                    </Link>
-                  </Web>
-                </Visit>
-              </Detail>
-            </Project>
-          </Col>
-          <Col>
-            <Project>
-              <ProjectName>카카오톡 페이지</ProjectName>
-              <Image src={kakaotalk} alt=""></Image>
-              <Detail>
-                <Descript>프로젝트 세부설명</Descript>
-                <Skills>
-                  Skills
-                  <Skill>
-                    <img
-                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                      alt=""
-                    />
-                    <img
-                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                      alt=""
-                    />
-                  </Skill>
-                </Skills>
-                <Skills>
-                  Deploy
-                  <Skill>
-                    <img
-                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
-                      alt=""
-                    />
-                  </Skill>
-                </Skills>
-                <Visit>
-                  <Web>
-                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
-                      웹 사이트 방문하기
-                    </Link>
-                  </Web>
-                  <Web>
-                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
-                      깃허브 방문하기
-                    </Link>
-                  </Web>
-                </Visit>
-              </Detail>
-            </Project>
-            <Project>
-              <ProjectName>카카오톡 페이지</ProjectName>
-              <Image src={kakaotalk} alt=""></Image>
-              <Detail>
-                <Descript>프로젝트 세부설명</Descript>
-                <Skills>
-                  Skills
-                  <Skill>
-                    <img
-                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                      alt=""
-                    />
-                    <img
-                      src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                      alt=""
-                    />
-                  </Skill>
-                </Skills>
-                <Skills>
-                  Deploy
-                  <Skill>
-                    <img
-                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
-                      alt=""
-                    />
-                  </Skill>
-                </Skills>
-                <Visit>
-                  <Web>
-                    <Link to="https://yun0727.github.io/kokoa-clone-2022/">
-                      웹 사이트 방문하기
-                    </Link>
-                  </Web>
-                  <Web>
-                    <Link to="https://github.com/yun0727/kokoa-clone-2022">
-                      깃허브 방문하기
-                    </Link>
-                  </Web>
-                </Visit>
-              </Detail>
-            </Project>
+            <Project></Project>
           </Col>
         </Box>
       </Wrapper>
