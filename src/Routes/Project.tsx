@@ -398,7 +398,9 @@ function ProjectDetail() {
               <Image src={kakaotalk} alt=""></Image>
               <Detail>
                 <Descript>
-                  <p>- 카카오톡 웹 페이지 반응형으로 구현</p>
+                  <p>- BEM을 이용하여 CSS 코드 구성하고 유지, 관리</p>
+                  <p>- Media Query 사용하여 반응형 웹페이지로 구현</p>
+                  <p>- FontAwesome으로 다양한 아이콘 구현</p>
                 </Descript>
                 <Skills>
                   Skills
@@ -419,7 +421,7 @@ function ProjectDetail() {
                   Deploy
                   <Skill>
                     <img
-                      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
+                      src="https://img.shields.io/badge/githubpages-222222?style=for-the-badge&logo=githubpages&logoColor=white"
                       alt=""
                     />
                   </Skill>
