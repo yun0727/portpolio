@@ -346,7 +346,9 @@ function ProjectDetail() {
               <ProjectName>유니폼 판매 사이트</ProjectName>
               <Image src={uniform} alt=""></Image>
               <Detail>
-                <Descript>프로젝트세부설명</Descript>
+                <Descript>
+                  <p>gatsby를 통한 유니폼 판매 사이트 개발</p>
+                </Descript>
                 <Skills>
                   Skills
                   <Skill>
