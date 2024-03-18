@@ -348,6 +348,7 @@ function ProjectDetail() {
               <Detail>
                 <Descript>
                   <p>gatsby를 통한 유니폼 판매 사이트 개발</p>
+                  <p></p>
                 </Descript>
                 <Skills>
                   Skills
