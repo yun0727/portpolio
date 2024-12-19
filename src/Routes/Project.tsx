@@ -6,6 +6,7 @@ import carrotmarket from "../img/carrotmarket.png";
 import netflix from "../img/netflix.png";
 import youtube from "../img/youtube.png";
 import uniform from "../img/uniform.png";
+import starbucks from "../img/starbucks.png";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
@@ -87,9 +88,11 @@ const Detail = styled.div`
   align-items: flex-start;
 `;
 const Descript = styled.div`
-  font-size: 25px;
+  font-size: 20px;
   color: black;
+  font-weight: 400;
   margin-bottom: 15px;
+  line-height: 30px;
 `;
 const Skills = styled.div`
   font-size: 25px;
@@ -142,6 +145,133 @@ function ProjectDetail() {
         />
         <Box>
           <Title>Project</Title>
+          <Col>
+            <Project>
+              <ProjectName>스타벅스 웹 페이지 만들기</ProjectName>
+              <Image src={starbucks} alt=""></Image>
+              <Detail>
+                <Descript>
+                  <p>
+                    - 오픈 그래프와 트위터 카드를 이용하여 sns로 공유될때
+                    우선적으로 활용되는 정보를 지정
+                  </p>
+                  <p>
+                    - 자바스크립트 라이브러리 lodash의 throttle을 통해 스크롤
+                    이벤트 제한
+                  </p>
+                  <p>- gsap을 통해 애니메이션을 보다 정밀하게 제어</p>
+                  <p>- 슬라이드 라이브러리 swiper을 통해 수직 슬라이드 구현 </p>
+                  <p>
+                    - 자바스크립트 라이브러리 ScrollMagic을 사용하여 스크롤
+                    위치에 따른 요소의 애니메이션 제어
+                  </p>
+                </Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://coffee-site-jy.netlify.app/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/starbucks">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+            <Project>
+              <ProjectName>유튜브 웹 페이지 클론코딩</ProjectName>
+              <Image src={youtube} alt=""></Image>
+              <Detail>
+                <Descript>
+                  <p>- 깃허브로 로그인 기능 구현</p>
+                  <p>- 영상 재생, 댓글 달기 기능 구현</p>
+                  <p>- 비디오 녹화 및 업로드 기능 구현</p>
+                </Descript>
+                <Skills>
+                  Skills
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/pug-a86454?style=for-the-badge&logo=pug&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/mongoDB-47a248?style=for-the-badge&logo=mongoDB&logoColor=white"
+                      alt=""
+                    />
+                    <Icon />
+                    동영상, 사용자, 댓글 관리를 위한 데이터 베이스
+                  </Skill>
+                </Skills>
+                <Skills>
+                  Deploy
+                  <Skill>
+                    <img
+                      src="https://img.shields.io/badge/heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"
+                      alt=""
+                    />
+                  </Skill>
+                </Skills>
+                <Visit>
+                  <Web>
+                    <Link to="https://wetube-2023-a663893d93ca.herokuapp.com/">
+                      웹 사이트 방문하기
+                    </Link>
+                  </Web>
+                  <Web>
+                    <Link to="https://github.com/yun0727/wetube-reloaded">
+                      깃허브 방문하기
+                    </Link>
+                  </Web>
+                </Visit>
+              </Detail>
+            </Project>
+          </Col>
           <Col>
             <Project>
               <ProjectName>당근마켓 클론코딩</ProjectName>
